@@ -1,8 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f1f1 url("../assents/images/home-slide-2.jpg") no-repeat right top fixed;
+}
+
+.cadastro {
+    width: 400px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.cadastro h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.cadastro form {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.cadastro form .form-group {
+    margin-bottom: 12px;
+}
+
+.cadastro form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.forgot-login {
+    text-decoration: none;
+    cursor: pointer;
+    color: #124ce7;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+.forgot-login span {
+    color: black;
+}
+
+.forgot-login:hover {
+    color: #3784ff;
+}
+
+.cadastro form .form-group {
+    margin-bottom: 0px;
+}
+
+
+.forgot-termos {
+    color: black;
+    font-size: 15px;
+    display: block;
+    text-align: center;
 }

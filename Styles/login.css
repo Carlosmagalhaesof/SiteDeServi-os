@@ -1,4 +1,6 @@
-* {
+/* CORPO */
+
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,35 +11,54 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #0d6efd;
+    background: #F1f1f1 url("../assents/images/home-slide-2.jpg") no-repeat right top fixed;
 }
 
+
+/* DIV LOGIN */
+
 .login {
-    width: 360px;
+    width: 400px;
     height: min-content;
     padding: 20px;
     border-radius: 12px;
     background: #ffffff;
 }
 
+/* FORM - H1 FAZER LOGIN */
 .login h1 {
     font-size: 36px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
-.login form {
-    font-size: 20px;
-}
-
+/* FORM - INPUT LOGIN / CADASTRO */
 .login form .form-group {
     margin-bottom: 12px;
 }
 
-.login form input[type="submit"] {
-    font-size: 20px;
-    margin-top: 15px;
+/* FORM - Não tem uma conta? Registre-se */
+.forgot-registrese {
+    text-decoration: none;
+    cursor: pointer;
+    color: #124ce7;
+    font-size: 15px;
+    display: block;
+    text-align: center;
 }
 
+.forgot-registrese span {
+    color: black;
+}
+
+.forgot-registrese:hover {
+    color: #3784ff;
+}
+.login form {
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* FORM - Esqueceu sua senha? */
 form .forgot {
     text-decoration: none;
     cursor: pointer;
@@ -49,3 +70,8 @@ form .forgot:hover {
     color: #3784ff;
 }
 
+/* CORPO - BOTÃO ENTRAR */
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
